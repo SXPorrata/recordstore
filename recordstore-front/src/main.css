@@ -40,11 +40,19 @@
   @import "tailwindcss/utilities";
  
  .input {
-   @apply appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight;
+   @apply appearance-none; 
+   @apply block;
+   @apply w-full;
+   /* @apply bg-grey;  */
+   /* @apply text-grey-darker;  */
+   /* @apply border border-grey-lighter; */
+   /* @apply rounded py-3 px-4 leading-tight; */
  }
- 
+
  .input:focus {
-   @apply outline-none bg-white border-grey;
+   @apply outline-none;
+   @apply bg-white;
+   /* @apply border-grey; */
  }
  
  .label {
