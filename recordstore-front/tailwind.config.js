@@ -935,6 +935,9 @@ module.exports = {
     prefix: '',
     important: false,
     separator: ':'
+  },
+  expirements: {
+    shadowLookup: true
   }
 
 }
