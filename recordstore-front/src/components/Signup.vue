@@ -19,9 +19,9 @@
           <label for="password_confirmation" class="label">Password Confirmation</label>
           <input type="password" v-model="password_confirmation" class="input" id="password_confirmation" placeholder="Password Confirmation">
         </div>
-        <button type="submit" class="font-sans font-bold px-4 rounded cursor-pointer no-underline bg-green hover:bg-green-500 block w-full py-4 text-black items-center justify-center">Sign Up</button>
+        <button type="submit" class="font-sans font-bold px-4 rounded cursor-pointer no-underline bg-green-300 hover:bg-green-500 block w-full py-4 text-black-500 items-center justify-center">Sign Up</button>
 
-        <div class="my-4"><router-link to="/" class="link-gray">Sign In</router-link></div>
+        <div class="my-4"><router-link to="/" class="link-gray-500">Sign In</router-link></div>
       </form>
     </div>
   </div>
