@@ -1,6 +1,9 @@
 require_relative 'boot'
 
 require "rails"
+require "redis"
+# require "rack-cors"
+require "jwt_sessions"
 # Pick the frameworks you want:
 require "active_model/railtie"
 require "active_job/railtie"
